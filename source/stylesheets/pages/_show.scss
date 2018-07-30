@@ -1,0 +1,55 @@
+.img-banner {
+  height:300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper-white {
+  background-color: white;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-items : space-around;
+}
+
+.booking {
+  background-color: $light-gray;
+  padding: 15px;
+  text-align: center;
+}
+
+input {
+  margin : 10px;
+  width : auto
+}
+
+select {
+  width : calc(100% - 20px)
+}
+
+.btn-form {
+  width : calc(100% - 20px)
+}
+
+.check {
+  width : calc(100% - 20px)
+}
+
+.booking h2 {
+  margin: 0;
+}
+
+.flat-info {
+  display: flex;
+  align-items:center;
+  justify-items: space-around;
+}
+
+.flat-info h3 {
+ margin: 0;
+}
+
+.owner-info {
+ padding: 15px;
+}
